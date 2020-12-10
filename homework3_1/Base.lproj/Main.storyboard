@@ -9,20 +9,137 @@
     </dependencies>
     <scenes>
         <!--貼圖-->
-        <scene sceneID="UBj-rr-PFH">
+        <scene sceneID="SaA-1e-1x7">
             <objects>
-                <viewController id="Oh5-ba-JFT" customClass="ViewController" customModule="homework3_1" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rH1-lM-iYk">
+                <tableViewController id="iem-hq-Q23" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="uBW-V3-iJz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Ozg-iP-Iuu"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="貼圖" id="1Ym-gg-tpF"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bD6-e2-ryl" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" red="0.94275027509999998" green="0.88721543560000005" blue="0.60587843620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <sections>
+                            <tableViewSection headerTitle="白爛貓13☆超級嗨☆" id="DYf-b6-Ywk">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="gH3-Na-Bsp">
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="160"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gH3-Na-Bsp" id="pss-Ji-xjL">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TtZ-qI-har">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" id="lnP-y2-ihi">
+                                                            <rect key="frame" x="0.0" y="5" width="2335" height="150"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_1" translatesAutoresizingMaskIntoConstraints="NO" id="y6j-PH-dgM">
+                                                                    <rect key="frame" x="15" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_4" translatesAutoresizingMaskIntoConstraints="NO" id="NYu-qm-QZG">
+                                                                    <rect key="frame" x="160" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_5" translatesAutoresizingMaskIntoConstraints="NO" id="rXk-mp-ews">
+                                                                    <rect key="frame" x="305" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_6" translatesAutoresizingMaskIntoConstraints="NO" id="Wc3-6A-uYI">
+                                                                    <rect key="frame" x="450" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_7" translatesAutoresizingMaskIntoConstraints="NO" id="cfs-kA-Lyo">
+                                                                    <rect key="frame" x="595" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_11" translatesAutoresizingMaskIntoConstraints="NO" id="X1Q-uR-0Vt">
+                                                                    <rect key="frame" x="885" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_10" translatesAutoresizingMaskIntoConstraints="NO" id="hpw-qU-ern">
+                                                                    <rect key="frame" x="740" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_16" translatesAutoresizingMaskIntoConstraints="NO" id="gnN-jh-pX9">
+                                                                    <rect key="frame" x="1030" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_18" translatesAutoresizingMaskIntoConstraints="NO" id="JiQ-OF-jub">
+                                                                    <rect key="frame" x="1175" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_21" translatesAutoresizingMaskIntoConstraints="NO" id="XZS-1q-4eG">
+                                                                    <rect key="frame" x="1320" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_26" translatesAutoresizingMaskIntoConstraints="NO" id="mKX-Fj-niM">
+                                                                    <rect key="frame" x="1465" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_34" translatesAutoresizingMaskIntoConstraints="NO" id="y6U-hG-9g2">
+                                                                    <rect key="frame" x="1610" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_35" translatesAutoresizingMaskIntoConstraints="NO" id="wJZ-bP-oMZ">
+                                                                    <rect key="frame" x="1755" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_39" translatesAutoresizingMaskIntoConstraints="NO" id="GLr-yX-hdc">
+                                                                    <rect key="frame" x="1900" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_40" translatesAutoresizingMaskIntoConstraints="NO" id="mTf-0s-d7E">
+                                                                    <rect key="frame" x="2045" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_41" translatesAutoresizingMaskIntoConstraints="NO" id="SQQ-uC-PBG">
+                                                                    <rect key="frame" x="2190" y="10" width="130" height="130"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <viewLayoutGuide key="safeArea" id="ww2-aJ-7Ev"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </view>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                                            <size key="value" width="2335" height="0.0"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </scrollView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Section-2" id="gOT-ZJ-dA3">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="120" id="3tq-HZ-UMa">
+                                        <rect key="frame" x="0.0" y="271.5" width="414" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3tq-HZ-UMa" id="wtK-he-hkw">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="iem-hq-Q23" id="g5y-Xi-rdP"/>
+                            <outlet property="delegate" destination="iem-hq-Q23" id="Uhp-8V-MLL"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="貼圖" id="2cT-qF-6Ef"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o2i-9j-ec1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1958" y="812"/>
+            <point key="canvasLocation" x="1957.9710144927537" y="811.60714285714278"/>
         </scene>
         <!--角色介紹-->
         <scene sceneID="Ns6-XG-daM">
@@ -363,7 +480,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Oh5-ba-JFT" kind="relationship" relationship="rootViewController" id="uL6-dq-Db4"/>
+                        <segue destination="iem-hq-Q23" kind="relationship" relationship="rootViewController" id="o7t-Ze-pYz"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xGR-Qh-Oo7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1769,6 +1886,22 @@ https://www.facebook.com/mochidad/</string>
         </scene>
     </scenes>
     <resources>
+        <image name="13_1" width="370" height="320"/>
+        <image name="13_10" width="370" height="320"/>
+        <image name="13_11" width="370" height="320"/>
+        <image name="13_16" width="370" height="320"/>
+        <image name="13_18" width="370" height="320"/>
+        <image name="13_21" width="370" height="320"/>
+        <image name="13_26" width="370" height="320"/>
+        <image name="13_34" width="370" height="320"/>
+        <image name="13_35" width="370" height="320"/>
+        <image name="13_39" width="370" height="320"/>
+        <image name="13_4" width="370" height="320"/>
+        <image name="13_40" width="370" height="320"/>
+        <image name="13_41" width="240" height="240"/>
+        <image name="13_5" width="370" height="320"/>
+        <image name="13_6" width="370" height="320"/>
+        <image name="13_7" width="370" height="320"/>
         <image name="background" width="1080" height="1920"/>
         <image name="background2" width="1080" height="1920"/>
         <image name="background3" width="1080" height="1920"/>
